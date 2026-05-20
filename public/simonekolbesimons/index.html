@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simon's Kneipe – Berlin Steglitz</title>
+  <meta name="description" content="Simon's Kneipe in Berlin-Steglitz. Täglich geöffnet ab 12 Uhr. Kühle Getränke, Sportübertragungen und gute Stimmung." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Simon's<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">Über uns</a></li>
+        <li><a href="#drinks">Getränke</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-label">Willkommen in</p>
+      <h1>Simon's<br /><span>Kneipe</span></h1>
+      <p class="hero-sub">Dein Stammlokal in Berlin-Steglitz seit Jahren</p>
+      <div class="hero-badges">
+        <span class="badge">🍺 Kühle Getränke</span>
+        <span class="badge">📺 Sportübertragungen</span>
+        <span class="badge">🌿 Außenbereich</span>
+      </div>
+      <a href="#contact" class="btn-primary">Anfahrt &amp; Öffnungszeiten</a>
+    </div>
+    <div class="hero-scroll">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="section-label">Über die Kneipe</p>
+          <h2>Gemütlich.<br />Ehrlich.<br />Berlinerisch.</h2>
+          <p>Simon's Kneipe ist das klassische Berliner Ecklokal – kein Schnickschnack, dafür echte Atmosphäre, freundliche Gesichter und ein kühles Bier, das wartet. Egal ob nach der Arbeit, beim Spieleabend oder wenn das Bundesligaspiel läuft.</p>
+          <div class="about-features">
+            <div class="feature">
+              <div class="feature-icon">🎯</div>
+              <div>
+                <strong>Spielmöglichkeiten</strong>
+                <p>Dart, Kicker &amp; mehr</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">📺</div>
+              <div>
+                <strong>Sport live</strong>
+                <p>Bundesliga, CL &amp; Co.</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">♿</div>
+              <div>
+                <strong>Barrierefreiheit</strong>
+                <p>Für alle zugänglich</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">🌿</div>
+              <div>
+                <strong>Außenbereich</strong>
+                <p>Sitzen im Freien</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="visual-card">
+            <div class="visual-inner">
+              <div class="hours-display">
+                <div class="hours-icon">🕛</div>
+                <p class="hours-label">Täglich geöffnet</p>
+                <p class="hours-time">12:00 – 00:00</p>
+                <p class="hours-sub">Mo – So</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Drinks -->
+  <section id="drinks">
+    <div class="container">
+      <p class="section-label">Was wir ausschenken</p>
+      <h2>Die Getränkekarte</h2>
+      <p class="section-desc">Handverlesene Klassiker und das ein oder andere Highlight – so wie eine gute Kneipe es verdient.</p>
+
+      <div class="drinks-tabs">
+        <button class="tab-btn active" data-tab="bier">Bier</button>
+        <button class="tab-btn" data-tab="cocktails">Longdrinks</button>
+        <button class="tab-btn" data-tab="soft">Softdrinks</button>
+        <button class="tab-btn" data-tab="shots">Shots</button>
+      </div>
+
+      <div class="drinks-content">
+        <!-- Bier -->
+        <div class="tab-panel active" id="tab-bier">
+          <div class="drinks-grid">
+            <div class="drink-card">
+              <div class="drink-icon">🍺</div>
+              <div class="drink-info">
+                <h4>Bier vom Fass</h4>
+                <p>0,3 l / 0,5 l – frisch gezapft</p>
+              </div>
+              <span class="drink-price">2,80 / 3,80 €</span>
+            </div>
+            <div class="drink-card">
+              <div class="drink-icon">🍻</div>
+              <div class="drink-info">
+                <h4>Radler</h4>
+                <p>0,5 l – halb Bier, halb Limo</p>
+              </div>
+              <span class="drink-price">3,50 €</span>
+            </div>
+            <div class="drink-card">
+              <div class="drink-icon">🍺</div>
+              <div class="drink-info">
+                <h4>Weizenbier</h4>
+                <p>0,5 l – hell oder dunkel</p>
+              </div>
+              <span class="drink-price">4,00 €</span>
+            </div>
+            <div class="drink-card">
+              <div class="drink-icon">🍺</div>
+              <div class="drink-info">
+                <h4>Radeberger</h4>
+                <p>0,5 l Flasche – Pilsner</p>
+              </div>
+              <span class="drink-price">3,50 €</span>
+            </div>
+            <div class="drink-card">
+              <div class="drink-icon">🍺</div>
+              <div class="drink-info">
+                <h4>Alkoholfreies Bier</h4>
+                <p>0,33 l Flasche</p>
+              </div>
+              <span class="drink-price">3,00 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Longdrinks -->
+        <div class="tab-panel" id="tab-cocktails">
+          <div class="drinks-grid">
+            <div class="drink-card">
+              <div class="drink-icon">🥃</div>
+              <div class="drink-info">
+                <h4>Whisky Cola</h4>
+                <p>Jack Daniel's mit Cola</p>
+              </div>
+              <span class="drink-price">5,50 €</span>
+            </div>
+            <div class="drink-card">
+              <div class="drink-icon">🍹</div>
+              <div class="drink-info">
+                <h4>Gin Tonic</h4>
+                <p>Klassiker mit Limette</p>
+              </div>
+              <span class="drink-price">6,00 €</span>
+            </div>
+            <div class="drink-card">
+              <div class="drink-icon">🍹</div>
+              <div class="drink-info">
+                <h4>Vodka Lemon</h4>
+                <p>Wodka mit Bitter Lemon</p>
+              </div>
+              <span class="drink-price">5,00 €</span>
+            </div>
+            <div class="drink-card">
+              <div class="drink-icon">🍸</div>
+              <div class="drink-info">
+                <h4>Aperol Spritz</h4>
+                <p>Aperol, Prosecco, Soda</p>
+              </div>
+              <span class="drink-price">6,50 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Softdrinks -->
+        <div class="tab-panel" id="tab-soft">
+          <div class="drinks-grid">
+            <div class="drink-card">
+              <div class="drink-icon">🥤</div>
+              <div class="drink-info">
+                <h4>Cola / Cola Zero</h4>
+                <p>0,3 l Glas</p>
+              </div>
+              <span class="drink-price">2,50 €</span>
+            </div>
+            <div class="drink-card">
+              <div class="drink-icon">🧃</div>
+              <div class="drink-info">
+                <h4>Säfte</h4>
+                <p>Apfel, Orange, Multivit.</p>
+              </div>
+              <span class="drink-price">2,50 €</span>
+            </div>
+            <div class="drink-card">
+              <div class="drink-icon">💧</div>
+              <div class="drink-info">
+                <h4>Mineralwasser</h4>
+                <p>Still oder Sprudel</p>
+              </div>
+              <span class="drink-price">2,00 €</span>
+            </div>
+            <div class="drink-card">
+              <div class="drink-icon">☕</div>
+              <div class="drink-info">
+                <h4>Kaffee</h4>
+                <p>Espresso oder Filterkaffee</p>
+              </div>
+              <span class="drink-price">2,20 €</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shots -->
+        <div class="tab-panel" id="tab-shots">
+          <div class="drinks-grid">
+            <div class="drink-card">
+              <div class="drink-icon">🥃</div>
+              <div class="drink-info">
+                <h4>Korn</h4>
+                <p>2 cl, pur oder mit Bier</p>
+              </div>
+              <span class="drink-price">1,50 €</span>
+            </div>
+            <div class="drink-card">
+              <div class="drink-icon">🥃</div>
+              <div class="drink-info">
+                <h4>Jägermeister</h4>
+                <p>2 cl eiskalt</p>
+              </div>
+              <span class="drink-price">2,00 €</span>
+            </div>
+            <div class="drink-card">
+              <div class="drink-icon">🥃</div>
+              <div class="drink-info">
+                <h4>Tequila</h4>
+                <p>2 cl mit Salz &amp; Zitrone</p>
+              </div>
+              <span class="drink-price">2,50 €</span>
+            </div>
+            <div class="drink-card">
+              <div class="drink-icon">🥃</div>
+              <div class="drink-info">
+                <h4>Wodka</h4>
+                <p>2 cl, pur oder auf Eis</p>
+              </div>
+              <span class="drink-price">2,00 €</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="drinks-note">* Alle Preise inkl. MwSt. Änderungen vorbehalten.</p>
+    </div>
+  </section>
+
+  <!-- Events -->
+  <section id="events">
+    <div class="container">
+      <p class="section-label">Was läuft</p>
+      <h2>Events &amp; Sport</h2>
+      <p class="section-desc">Live-Sport, Spieleabende und mehr – bei Simon's ist immer was los.</p>
+
+      <div class="events-grid">
+        <div class="event-card featured">
+          <div class="event-badge">Live</div>
+          <div class="event-icon">⚽</div>
+          <h3>Bundesliga</h3>
+          <p>Alle Spiele live auf dem großen Bildschirm. Komm früh, denn die guten Plätze sind schnell weg.</p>
+          <span class="event-day">Sa &amp; So</span>
+        </div>
+        <div class="event-card">
+          <div class="event-icon">🏆</div>
+          <h3>Champions League</h3>
+          <p>Die europäische Königsklasse live. Mit Bier in der Hand und Fans um dich herum.</p>
+          <span class="event-day">Di &amp; Mi</span>
+        </div>
+        <div class="event-card">
+          <div class="event-icon">🎯</div>
+          <h3>Dartrunde</h3>
+          <p>Jeden Donnerstag organisiertes Dartturnier. Einstieg jederzeit möglich – Anfänger willkommen.</p>
+          <span class="event-day">Do ab 19 Uhr</span>
+        </div>
+        <div class="event-card">
+          <div class="event-icon">🃏</div>
+          <h3>Spieleabend</h3>
+          <p>Skat, Mau-Mau, Kniffel – die Klassiker. Bringt eure eigenen Spiele mit!</p>
+          <span class="event-day">Fr ab 20 Uhr</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <p class="section-label">Wo wir sind</p>
+      <h2>Anfahrt &amp; Kontakt</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-block">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h4>Adresse</h4>
+              <p>Borstellstraße 48<br />12167 Berlin<br />(Steglitz-Zehlendorf)</p>
+            </div>
+          </div>
+          <div class="contact-block">
+            <div class="contact-icon">🕛</div>
+            <div>
+              <h4>Öffnungszeiten</h4>
+              <div class="hours-table">
+                <div class="hours-row">
+                  <span>Montag – Sonntag</span>
+                  <span class="hours-val">12:00 – 00:00</span>
+                </div>
+                <p class="hours-note">Täglich geöffnet – auch an Feiertagen</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-block">
+            <div class="contact-icon">🚇</div>
+            <div>
+              <h4>Anfahrt</h4>
+              <p>S-Bahn Lichterfelde West oder Bus-Haltestelle Borstellstraße in der Nähe</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-container">
+          <iframe
+            title="Simon's Kneipe auf der Karte"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2430.0!2d13.3200!3d52.4500!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sBorstellstra%C3%9Fe+48%2C+12167+Berlin!5e0!3m2!1sde!2sde!4v1600000000000!5m2!1sde!2sde"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <p class="footer-logo">Simon's<span>.</span></p>
+          <p>Dein Stammlokal in Berlin-Steglitz.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#about">Über uns</a>
+          <a href="#drinks">Getränke</a>
+          <a href="#events">Events</a>
+          <a href="#contact">Kontakt</a>
+        </div>
+        <div class="footer-legal">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Simon's Kneipe · Borstellstraße 48, 12167 Berlin</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
