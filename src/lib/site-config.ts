@@ -4,7 +4,7 @@ export const siteConfig = {
   tagline: "Webseiten & Business-Software für Handwerk, Gastronomie und Verwaltung",
   description:
     "Ich entwickle moderne Webseiten und maßgeschneiderte Business-Software für lokale Unternehmen – von der ersten Idee bis zur fertigen, wartbaren Lösung.",
-  url: "https://www.mikailoeztuerk.de",
+  url: "https://www.mikailoeztuerk.de/portfolio",
   email: "mikail12355@yahoo.de",
   location: "Deutschland",
   links: {
